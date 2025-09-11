@@ -1,0 +1,19 @@
+.container button {
+    padding: 15px 30px;
+
+    background: var(--gradient-orange);
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: opacity 0.3s ease-in-out;
+}
+
+.container button:hover {
+    opacity: 0.8;
+}
