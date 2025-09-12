@@ -5,6 +5,7 @@ import { Peoples } from "./Components/Peoples"
 import { Companies } from "./Components/Companies"
 import Carrousel from "./Components/Carrousel"
 import { About } from "./Components/About"
+import { Footer } from "./Components/Footer"
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
         <Companies/>
         <Carrousel/>
         <About/>
+        <Footer/>
       </div>
     </div>
   )

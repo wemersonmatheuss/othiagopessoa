@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    background: inherit;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    padding-bottom: 60px;
+}
+
+.allSocial {
+    display: flex;
+    gap: 5px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.text p, a {
+    font-size: 14px;
+    font-weight: 400;
+
+    text-align: center;
+
+    color: var(--text-color);
+}
