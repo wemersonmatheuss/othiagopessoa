@@ -8,6 +8,8 @@
     gap: 50px;
 
     color: var(--text-color);
+
+    background: inherit;
 }
 
 .title h2 {
