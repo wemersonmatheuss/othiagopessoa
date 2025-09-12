@@ -22,3 +22,11 @@
 	border-radius: 8px;
 	object-fit: contain;
 }
+
+.button {
+    margin-top: 47px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

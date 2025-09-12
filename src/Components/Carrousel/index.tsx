@@ -1,5 +1,8 @@
 import styles from "./styles.module.css"
+
 import { useEffect, useState } from "react"
+
+import { Button } from "../Button"
 
 import image12 from "../../assets/svg/image 12.svg"
 import image13 from "../../assets/svg/image 13.svg"
@@ -81,6 +84,10 @@ export default function Carrousel() {
 						/>
 					))}
 				</div>
+
+                <div className={styles.button}>
+                    <Button name="QUERO FAZER PARTE"/>
+                </div>
 			</div>
 		);
 	}
