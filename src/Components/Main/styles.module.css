@@ -46,3 +46,9 @@
 .button {
     margin-top: 10px;
 }
+
+@media screen and (max-width: 1281px) {
+    .container {
+        padding: 140px 0 0 40px;
+    }
+}
