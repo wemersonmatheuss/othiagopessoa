@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    margin-top: 78px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+
+    color: var(--text-color);
+}
+
+.title h2 {
+    font-size: 28px;
+}
+
+.imageCompanies {
+    display: flex;
+    gap: 60px;
+}
+
+.imageCompanies img {
+    width: auto;
+    height: 55px;
+}

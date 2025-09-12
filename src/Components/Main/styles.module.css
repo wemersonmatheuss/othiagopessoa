@@ -1,12 +1,13 @@
 .container {
     width: 100%;
+    height: 800px;
     
     background-image: url('../../assets/banner-thiago-desktop.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    padding: 160px 0 360px 125px;
+    padding: 160px 0 0 125px;
 
     color: #fff;
 }
