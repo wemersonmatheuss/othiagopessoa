@@ -1,0 +1,18 @@
+.container {
+    background: inherit;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    margin-top: 47px;
+}
+.video {
+	width: 327px;
+	height: auto;
+	
+    display: block;
+
+    border-radius: 10px;
+}
