@@ -29,3 +29,17 @@
     width: auto;
     height: 55px;
 }
+
+@media screen and (max-width: 885px) {
+    .container {
+        padding-inline: 20px;
+    }
+
+    .title h2 {
+        text-align: center;
+    }
+
+    .imageCompanies {
+        gap: 40px;
+    }
+}

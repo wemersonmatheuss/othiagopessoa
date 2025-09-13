@@ -4,14 +4,18 @@ import { Service } from "../Service"
 import { Button } from "../Button"
 
 import equipe1 from "../../assets/svg/equipe 1.svg"
+import imageMobile from "../../assets/thiago.png"
 
 export function Main() {
     return (
         <div className={styles.container}>
+            <div className={styles.mobile}>
+                <img src={imageMobile} alt="" />
+            </div>
             <div className={styles.context}>
                 <div className={styles.title}>
                     <h1>Transforme sua Empresa em uma máquina de Performance e Resultados</h1>
-                    <p>Mais do que treinamentos: uma jornada para transformar sua cultura, fortalecer seu time e elevar sua performance.</p>
+                        <p>Mais do que treinamentos: uma jornada para transformar sua cultura, fortalecer seu time e elevar sua performance.</p>
                 </div>
 
                 <div className={styles.service}>
@@ -25,6 +29,7 @@ export function Main() {
                     <Button name="QUERO SABER MAIS"/>
                 </div>
             </div>
+            
             
         </div>
     )

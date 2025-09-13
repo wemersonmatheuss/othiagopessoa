@@ -29,3 +29,9 @@
         padding-inline: 40px;
     }
 }
+
+@media screen and (max-width: 885px) {
+    .container {
+        margin-top: 180px;
+    }
+}

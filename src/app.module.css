@@ -8,3 +8,15 @@
     flex-direction: column;
     /* gap: 47px; */
 }
+
+@media screen and (max-width: 885px) {
+    body {
+        background-image: url('./assets/banner-background.png');
+
+        height: 100%;
+    }
+
+    .context {
+        background: none;
+    }
+}

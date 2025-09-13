@@ -1,6 +1,6 @@
 import styles from "./styles.module.css"
 
-import imageThiago from "../../assets/THIAGO PESSOA 1.png"
+import imageThiago from "../../assets/thiago.png"
 
 export function About() {
     return (

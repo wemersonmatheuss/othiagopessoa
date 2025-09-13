@@ -33,3 +33,11 @@
 
     color: var(--text-color);
 }
+
+@media screen and (max-width: 885px) {
+    .container {
+        margin-top: 60px;
+
+        background: none;
+    }
+}
