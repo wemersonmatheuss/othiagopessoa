@@ -4,7 +4,7 @@ import { Main } from "./Components/Main"
 import { Peoples } from "./Components/Peoples"
 import { Companies } from "./Components/Companies"
 import { Depoiments } from "./Components/Depoiments"
-import Carrousel from "./Components/Carrousel"
+import { Picture } from "./Components/Pictures"
 import { About } from "./Components/About"
 import { Footer } from "./Components/Footer"
 
@@ -17,7 +17,7 @@ export function App() {
         <Peoples/>
         <Companies/>
         <Depoiments/>
-        <Carrousel/>
+        <Picture/>
         <About/>
         <Footer/>
       </div>

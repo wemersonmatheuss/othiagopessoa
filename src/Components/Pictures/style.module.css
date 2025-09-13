@@ -1,0 +1,55 @@
+.wrapper {
+	/* ...existing code... */
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE and Edge */
+}
+.wrapper::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, Opera */
+}
+
+.container {
+	background: inherit;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+	width: 100%;
+}
+
+.wrapper {
+	display: flex;
+	gap: 16px;
+	overflow-x: auto;
+	scroll-behavior: smooth;
+	width: 80vw;
+	max-width: 1200px;
+	padding: 12px 0;
+}
+
+.wrapper img {
+	width: 220px;
+	height: 220px;
+	border-radius: 24px;
+	object-fit: cover;
+	background: #222;
+	flex-shrink: 0;
+}
+
+.arrow {
+	background: #222;
+	color: #fff;
+	border: none;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	font-size: 2rem;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: background 0.2s;
+	z-index: 2;
+}
+.arrow:hover {
+	background: #444;
+}
