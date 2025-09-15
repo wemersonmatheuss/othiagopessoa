@@ -28,3 +28,13 @@
         width: 40%;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .video {
+        width: 100%;
+    }
+}
