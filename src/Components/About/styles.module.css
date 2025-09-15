@@ -59,3 +59,19 @@
         width: 60%;
     }
 }
+
+@media screen and (max-width: 441px) {
+    .container {
+        margin-top: 60px;
+
+        padding-inline: 20px;
+    }
+
+    .container img {
+        width: 80%;
+    }
+
+    .container .description {
+
+    }
+}

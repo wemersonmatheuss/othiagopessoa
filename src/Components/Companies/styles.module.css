@@ -60,3 +60,21 @@
         height: 40px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .title h2 {
+        font-size: 25px;
+    }
+
+    .imageCompanies {
+        width: 100%;
+
+        gap: 0;
+
+        justify-content: space-between;
+    }
+
+    .imageCompanies img {
+        height: 30px;
+    }
+}

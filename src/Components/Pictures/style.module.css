@@ -65,3 +65,19 @@
 		height: 120px;
 	}
 }
+
+@media screen and (max-width: 441px) {
+	.container {
+		padding-top: 60px;
+		padding-inline: 20px;
+	}
+
+	.wrapper {
+		padding-top: 0;
+	}
+
+	.wrapper img {
+		width: 100px;
+		height: 100px;
+	}
+}

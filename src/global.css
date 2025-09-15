@@ -11,3 +11,7 @@
   
   --text-color: #fff;
 }
+
+body, html {
+  overflow-x: hidden;
+}
