@@ -162,3 +162,9 @@
         top: 40%;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .mobile {
+        top: 35%;
+    }
+}

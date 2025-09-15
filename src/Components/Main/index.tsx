@@ -14,7 +14,7 @@ export function Main() {
             </div>
             <div className={styles.context}>
                 <div className={styles.title}>
-                    <h1>Transforme sua Empresa em uma máquina de Performance e Resultados</h1>
+                    <h1>Transforme sua Empresa em uma máquina de Resultados</h1>
                         <p>Mais do que treinamentos: uma jornada para transformar sua cultura, fortalecer seu time e elevar sua performance.</p>
                 </div>
 
