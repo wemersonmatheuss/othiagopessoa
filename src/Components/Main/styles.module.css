@@ -96,3 +96,17 @@
         padding-top: 490px;
     }
 }
+
+@media screen and (max-width: 686px) {
+    .title h1 {
+        font-size: 36px;
+    }
+
+    .mobile {
+        top: 45%;
+    }
+
+    .context {
+        padding-top: 400px;
+    }
+}

@@ -42,4 +42,21 @@
     .imageCompanies {
         gap: 40px;
     }
+
+    .imageCompanies {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 686px) {
+    .imageCompanies {
+        width: 100%;
+
+        justify-content: space-between;
+    }
+
+    .imageCompanies img {
+        width: auto;
+        height: 40px;
+    }
 }

@@ -53,3 +53,15 @@
 .arrow:hover {
 	background: #444;
 }
+
+
+@media screen and (max-width: 686px) {
+	.wrapper {
+		padding-top: 60px;
+	}
+	
+	.wrapper img {
+		width: 120px;
+		height: 120px;
+	}
+}

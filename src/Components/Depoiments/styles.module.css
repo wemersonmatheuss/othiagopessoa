@@ -18,3 +18,13 @@
 
     border-radius: 10px;
 }
+
+@media screen and (max-width: 686px) {
+    .container {
+        padding-inline: 20px;
+    }
+
+    .video {
+        width: 40%;
+    }
+}
