@@ -23,3 +23,18 @@
 
     text-align: center;
 }
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 150px;
+
+        padding: 20px 10px;
+
+        flex-wrap: wrap;
+    }
+
+    .container p {
+        width: 100%;
+    }
+}
